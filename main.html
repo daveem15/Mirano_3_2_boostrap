@@ -3,32 +3,447 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bark n' Purr</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bark 'n Purr</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
-    <div class="background-image">
-        <div class="signup-form">
-            <h1 class="bnp">Bark n' Purr</h1>
-            <form action="bnp.html" method="post">
-                <div class="form-group">
-                    <label for="username">Full Name:</label>
-                    <input type="text" id="username" name="username" required>
+<body class="">
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="" class="logo">Bark 'n Purr <span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>dogs</h3>
+            <span>man's best friend</span>
+            <p>The dog is a domesticated descendant of the wolf. Also called the domestic dog, it is derived from extinct Pleistocene wolves, and the modern wolf is the dog's nearest living relative. The dog was the first species to be domesticated by humans.</p>
+            <a href="#products"> <button class="button"> Shop Now</button></a>
+        </div>
+    </section>
+
+   
+    <section class="about" id="about">
+        <h1 class="heading"> <span> about </span> </h1>
+            <div class="row">
+                <div class="video-container">
+                   <iframe  src="https://www.youtube.com/embed/2DWzNhqA8sk" width="500" height="500" loop autoplay muted></iframe>
+                        <h3>best dog accesories seller</h3>
                 </div>
-                <div class="form-group">
-                    <label for="address">Address:</label>
-                    <input type="text" id="address" name="address" required>
+
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quas eius non quidem aut sint neque dolores fuga corrupti iste numquam, quaerat excepturi autem blanditiis repudiandae quisquam! Voluptas, similique temporibus?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab aut vitae tempora nam sapiente adipisci quam nesciunt, quas cum cumque ex voluptas minus dignissimos. Odit, fuga blanditiis. Cumque, obcaecati!</p>
+                    <a href="#" class="button">learn more!</a>
                 </div>
-                <div class="form-group">
-                    <label for="confirm-password">Date</label>
-                    <input type="date" id="date" name="date" required>
+            </div>
+    </section>
+
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/4947/4947265.png" alt="">
+            <div class="info">
+                <h3>free delivery</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/128/2279/2279674.png" alt="">
+            <div class="info">
+                <h3>10 days return</h3>
+                <span>moneyback guarantee</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/2429/2429317.png" alt="">
+            <div class="info">
+                <h3>offer & gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/6993/6993594.png" alt="">
+            <div class="info">
+                <h3>secure paymentt</h3>
+                <span>protected paypa</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="products" id="products">
+        <h1 class="heading">latest <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://cbpetz.b-cdn.net/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/l/nl-red---nylon-dog-leash---red---swatch_2_14.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <button type="submit">Shop Now</button>
+                <div class="content">
+                    <h3>nylon leash</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
                 </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://cdn.shopify.com/s/files/1/0554/6252/7165/products/412485_source_1599240352.jpg?v=1620660323&width=624" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>quantum dog leash</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://ph-test-11.slatic.net/p/ed338359614ab6279ac170b13079fddd.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>stainless dog bowl</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://www.aacl.co.za/wp-content/uploads/2021/04/Double-Plastic-Dog-Bowl.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>plastic dog bowl</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://www.kahayupan.com/cdn/shop/products/finished1_1200x1200.jpg?v=1604514277" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>premium organic dog shampoo</h3>
+                    <div class="price">$5.99 <span>$6.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://www.petexpress.com.ph/cdn/shop/products/10214912-Sergeants-Fur-so-Fresh-Oatmeal-Dog-Shampoo-18oz-i.jpg?v=1615525955" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>fresh oatmeal dog shampoo</h3>
+                    <div class="price">$5.99 <span>$6.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://www.petexpress.com.ph/cdn/shop/products/10164498-1.jpg?v=1619186214" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>bayopet tick and flea soap</h3>
+                    <div class="price">$4.99 <span>$5.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://www.allday.com.ph/media/catalog/product/f/l/flea-away-dog-soap-kills-fleas-ticks--lice-90g_2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flea away dog soap </h3>
+                    <div class="price">$2.99 <span>$3.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://www.petwarehouse.ph/23256-big_default/pedigree-beef-and-vegetables-dog-dry-food.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>pedigree adult dog food</h3>
+                    <div class="price">$24.99 <span>$25.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://goofytails.com/cdn/shop/products/Untitled-1_6527a59d-1b8c-4fd2-be40-ede8c35b8dcf.jpg?v=1676117247" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>balls</h3>
+                    <div class="price">$2.99 <span>$3.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://cdn.petheaven.co.za/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/k/o/kong_airdog_squeaker_bone_2_2.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>squeaker bone dog toy</h3>
+                    <div class="price">$2.99 <span>$3.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://pedigreeclub.ph/cdn/shop/products/1.jpg?v=1675161416" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>dog food wet puppy chicken chunks</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+
+        <h1 class="heading">customer's <span>review</span></h1>
+ 
+        <div class="box-container">
+        
+            <div class="box">
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque reprehenderit, ipsum excepturi, iusto deleniti fugiat voluptatum aperiam eum aut accusantium, quae facilis aliquam explicabo voluptate suscipit temporibus. Ullam, sed voluptatem.</p>
+            <div class="user">
+                <img src="https://m.media-amazon.com/images/M/MV5BOTg4N2Y3ZDEtN2I5MS00YjcyLThkZjUtZDMzZGFlYmNlZjc1XkEyXkFqcGdeQXVyNDUxNjc5NjY@._V1_.jpg" alt="">
+                <div class="user-info">
+                    <h3>juan dela cruz</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+       
+
+        <div class="box">
+            <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque reprehenderit, ipsum excepturi, iusto deleniti fugiat voluptatum aperiam eum aut accusantium, quae facilis aliquam explicabo voluptate suscipit temporibus. Ullam, sed voluptatem.</p>
+        <div class="user">
+            <img src="https://assets.rappler.com/465545A514E444D69FC4E85B05DF6594/img/FBF31FDF96824A819503D0AC4D6E3FE8/vice.jpg" alt="">
+            <div class="user-info">
+                <h3>gandarapido</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+
+<div class="box">
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+</div>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque reprehenderit, ipsum excepturi, iusto deleniti fugiat voluptatum aperiam eum aut accusantium, quae facilis aliquam explicabo voluptate suscipit temporibus. Ullam, sed voluptatem.</p>
+<div class="user">
+    <img src="https://a3x2k4e2.rocketcdn.me/wp-content/uploads/2022/08/Darna-Jane.jpg" alt="">
+    <div class="user-info">
+        <h3>darna</h3>
+        <span>happy customer</span>
+    </div>
+</div>
+<span class="fas fa-quote-right"></span>
+</div>
+</div>
+</div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span>us</h1>
+    
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="button">
             </form>
+
+            <div class="image">
+                <img src="https://st2.depositphotos.com/7413918/10228/i/450/depositphotos_102282272-stock-photo-fun-dog-cartoon-character-with.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#products">products</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorite</a>
+            </div>
+            <div class="box">
+                <h3>locations </h3>
+                <a href="#home">india</a>
+                <a href="#about">usa</a>
+                <a href="#products">japan</a>
+                <a href="#review">france</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">mumbai, india - 400104</a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Visa_Electron.svg/800px-Visa_Electron.svg.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="https://cbpetz.b-cdn.net/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/l/nl-red---nylon-dog-leash---red---swatch_2_14.jpg" alt="">
+                </div>
+                <div class="name">
+                    Nylon Leash
+                </div>
+                <div class="totalPrice">
+                    $12.99
+                </div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">CHECK OUT</button>
         </div>
     </div>
+
+
+<script src="main.js"></script>
 </body>
 </html>
