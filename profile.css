@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://wallpapers.com/images/hd/dog-aesthetic-2zt6rch8528jzkry.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    border-radius: 500px;
+    width: 700px;
+   align-items: center;
+}
